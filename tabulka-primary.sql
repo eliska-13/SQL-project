@@ -24,4 +24,8 @@ JOIN czechia_payroll_value_type AS value_type
 	AND value_type.code = 5958
 JOIN czechia_payroll_unit AS payroll_unit
 	ON payroll.unit_code = payroll_unit.code
-	AND payroll_unit.code = 200;
+	AND payroll_unit.code = 200
+JOIN czechia_payroll_calculation AS payroll_calc
+	ON payroll.calculation_code = payroll_calc.code
+	AND payroll_calc.code = 100;
+
