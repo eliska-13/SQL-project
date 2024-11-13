@@ -1,7 +1,7 @@
 # Odpovědi na výzkumné otázky
 ---
 ## 1. Rostou v průběhu let mzdy ve všech odvětvích, nebo v některých klesají?
-- Mzdy většinou v průběhu let ve všech odvětvích rostou. V některých odvětvích v určitých letech klesají:
+Mzdy většinou v průběhu let ve všech odvětvích rostou. V některých odvětvích v určitých letech klesají:
 - Těžba a dobývání v roce 2009, 2013, 2013, 2016
 - Výroba a rozvod elektřiny, plynu, tepla a klimatiz. vzduchu v roce 2013, 2015
 - Zásobování vodou; činnosti související s odpady a sanacemi v roce 2013
@@ -18,6 +18,13 @@
 
 ---
 ## 2. Kolik je možné si koupit litrů mléka a kilogramů chleba za první a poslední srovnatelné období v dostupných datech cen a mezd?
+Za první srovnatelné období (2006) je možné koupit průměrně:
+1271 kg chleba
+1453 l mléka
+
+Za poslední srovnatelné období (2018) je možné koupit průměrně:
+1332 kg chleba
+1599 l mléka
 
 ---
 ## 3. Která kategorie potravin zdražuje nejpomaleji (je u ní nejnižší percentuální meziroční nárůst)?
