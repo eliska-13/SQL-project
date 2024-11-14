@@ -42,7 +42,7 @@ GROUP BY apv.branch_name, ap.category_name, apv.year;
 SELECT 
 	apv.year
 	, ap.category_name
-    , ROUND(AVG(FLOOR(apv.avg_payroll / ap.avg_food_price))) AS average_quantity
+	, ROUND(AVG(FLOOR(apv.avg_payroll / ap.avg_food_price))) AS average_quantity
 FROM avg_payroll_value AS apv
 JOIN avg_price AS ap
 	ON apv.year = ap.year
