@@ -32,7 +32,7 @@ Nejpomaleji zdražuje cukr krystal.
 
 ---
 ## 4. Existuje rok, ve kterém byl meziroční nárůst cen potravin výrazně vyšší než růst mezd (větší než 10 %)?
-
+Pokud budeme porovnávat průměrný meziroční nárůst všech potravin a všech mezd, pak byl ve všech dostupných letech nárůst menší než 10 %.
 
 ---
 ## 5. Má výška HDP vliv na změny ve mzdách a cenách potravin? Neboli, pokud HDP vzroste výrazněji v jednom roce, projeví se to na cenách potravin či mzdách ve stejném nebo násdujícím roce výraznějším růstem?
