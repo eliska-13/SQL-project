@@ -39,6 +39,8 @@ Nejpomaleji zdražuje **cukr krystal.**
 Pokud budeme porovnávat průměrný meziroční nárůst všech potravin a všech mezd, pak byl ve všech dostupných letech nárůst **menší než 10 %.**
 
 ---
-## 5. Má výška HDP vliv na změny ve mzdách a cenách potravin? Neboli, pokud HDP vzroste výrazněji v jednom roce, projeví se to na cenách potravin či mzdách ve stejném nebo násdujícím roce výraznějším růstem?
+## 5. Má výška HDP vliv na změny ve mzdách a cenách potravin? Neboli, pokud HDP vzroste výrazněji v jednom roce, projeví se to na cenách potravin či mzdách ve stejném nebo následujícím roce výraznějším růstem?
+Za výraznější nárůst HDP považujme v ČR více než 5 %:
 
-
+V takovém případě mají ceny potravin i mzdy tendenci růst. 
+V roce 2015 však vzrostlo HDP o více než 5 % a ceny potravin ve stejném i následujícím roce klesly. Mzdy vzrostly do 5 %.
