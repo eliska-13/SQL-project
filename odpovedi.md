@@ -19,20 +19,21 @@ Mzdy většinou v průběhu let ve všech odvětvích rostou. V některých odv�
 ---
 ## 2. Kolik je možné si koupit litrů mléka a kilogramů chleba za první a poslední srovnatelné období v dostupných datech cen a mezd?
 Za první srovnatelné období (2006) je možné koupit průměrně:
-1271 kg chleba
-1453 l mléka
+**- 1271 kg chleba
+- 1453 l mléka**
 
 Za poslední srovnatelné období (2018) je možné koupit průměrně:
-1332 kg chleba
-1599 l mléka
-
+**- 1332 kg chleba
+- 1599 l mléka**
+  
 ---
 ## 3. Která kategorie potravin zdražuje nejpomaleji (je u ní nejnižší percentuální meziroční nárůst)?
-Nejpomaleji zdražuje cukr krystal.
+Nejpomaleji zdražuje **cukr krystal.**
 
 ---
 ## 4. Existuje rok, ve kterém byl meziroční nárůst cen potravin výrazně vyšší než růst mezd (větší než 10 %)?
-Pokud budeme porovnávat průměrný meziroční nárůst všech potravin a všech mezd, pak byl ve všech dostupných letech nárůst menší než 10 %.
+Pokud budeme porovnávat průměrný meziroční nárůst všech potravin a všech mezd, 
+pak byl ve všech dostupných letech nárůst **menší než 10 %.**
 
 ---
 ## 5. Má výška HDP vliv na změny ve mzdách a cenách potravin? Neboli, pokud HDP vzroste výrazněji v jednom roce, projeví se to na cenách potravin či mzdách ve stejném nebo násdujícím roce výraznějším růstem?
