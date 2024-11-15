@@ -2,16 +2,7 @@
 /* OTÁZKA 3:
  * Která kategorie potravin zdražuje nejpomaleji (je u ní nejnižší percentuální meziroční nárůst)? */
 
-/* využívám pohled z otázky 2:
-CREATE VIEW avg_price AS
-SELECT 
-	year
-	, category_code
-	, category_name
-	, ROUND(AVG(category_value)) AS avg_food_price
-FROM t_eliska_kerhartova_project_sql_primary_final AS tekpspf 
-GROUP BY year, category_code, category_name;
-*/
+/* Využívám pohled 'avg_price' vytvořený v otázce 2.*/
 
 SELECT
 	a.category_name

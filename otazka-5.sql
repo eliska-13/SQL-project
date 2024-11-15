@@ -4,8 +4,7 @@
  * Neboli, pokud HDP vzroste výrazněji v jednom roce, projeví se to 
  * na cenách potravin či mzdách ve stejném nebo následujícím roce výraznějším růstem?*/
 
-SELECT *
-FROM t_eliska_kerhartova_project_sql_primary_final AS tekpspf;
+/* Využívám pohledy 'avg_percent_change_price' a 'avg_percent_change_payroll' vytvořené v otázce 4.*/
 
 CREATE VIEW avg_yearly_gdp AS
 SELECT

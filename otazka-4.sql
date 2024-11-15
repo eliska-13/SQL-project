@@ -2,6 +2,8 @@
 /* OTÁZKA 4:
  * Existuje rok, ve kterém byl meziroční nárůst cen potravin výrazně vyšší než růst mezd (větší než 10 %)? */
 
+/* Využívám pohledy 'avg_price' a 'avg_payroll_value' vytvořené v otázce 2.*/
+
 CREATE VIEW avg_percent_change_price AS 
 SELECT
 	a.year
