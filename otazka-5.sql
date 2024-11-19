@@ -31,23 +31,31 @@ SELECT
 	, price_same_year.percent_change_price
 	, payroll_same_year.percent_change_payroll
 	, CASE 
-		WHEN price_same_year.percent_change_price > 5 THEN 'Ceny potravin vzrostly o více než 5 %'
-		WHEN price_same_year.percent_change_price BETWEEN 0 AND 5 THEN 'Ceny potravin vzrostly do 5 %'
-		ELSE 'Ceny potravin klesly'
+			WHEN price_same_year.percent_change_price > 5 
+				THEN 'Ceny potravin vzrostly o více než 5 %'
+			WHEN price_same_year.percent_change_price BETWEEN 0 AND 5 
+				THEN 'Ceny potravin vzrostly do 5 %'
+			ELSE 'Ceny potravin klesly'
 	END AS price_change_same_year
 	, CASE 
-		WHEN payroll_same_year.percent_change_payroll > 5 THEN 'Mzdy vzrostly o více než 5 %'
-		WHEN payroll_same_year.percent_change_payroll BETWEEN 0 AND 5 THEN 'Mzdy vzrostly do 5 %'
+			WHEN payroll_same_year.percent_change_payroll > 5 
+				THEN 'Mzdy vzrostly o více než 5 %'
+			WHEN payroll_same_year.percent_change_payroll BETWEEN 0 AND 5 
+				THEN 'Mzdy vzrostly do 5 %'
 		ELSE 'Mzdy klesly'
 	END AS payroll_change_same_year
 	, CASE 
-		WHEN price_next_year.percent_change_price > 5 THEN 'Ceny potravin vzrostly o více než 5 %'
-		WHEN price_next_year.percent_change_price BETWEEN 0 AND 5 THEN 'Ceny potravin vzrostly do 5 %'
+			WHEN price_next_year.percent_change_price > 5 
+				THEN 'Ceny potravin vzrostly o více než 5 %'
+			WHEN price_next_year.percent_change_price BETWEEN 0 AND 5 
+				THEN 'Ceny potravin vzrostly do 5 %'
 		ELSE 'Ceny potravin klesly'
 	END AS price_change_next_year
 	, CASE 
-		WHEN payroll_next_year.percent_change_payroll > 5 THEN 'Mzdy vzrostly o více než 5 %'
-		WHEN payroll_next_year.percent_change_payroll BETWEEN 0 AND 5 THEN 'Mzdy vzrostly do 5 %'
+			WHEN payroll_next_year.percent_change_payroll > 5 
+				THEN 'Mzdy vzrostly o více než 5 %'
+			WHEN payroll_next_year.percent_change_payroll BETWEEN 0 AND 5 
+				THEN 'Mzdy vzrostly do 5 %'
 		ELSE 'Mzdy klesly'
 	END AS payroll_change_next_year
 FROM avg_percent_change_gdp AS gdp

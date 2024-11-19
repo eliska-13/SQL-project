@@ -1,8 +1,5 @@
-/* Kontakt na discordu: 
- * Eliška K.
- * eliska.13 
- * 
- * OTÁZKA 1:
+
+/* OTÁZKA 1:
  * Rostou v průběhu let mzdy ve všech odvětvích, nebo v některých klesají? */
 
 
@@ -24,9 +21,9 @@ SELECT
 	, b.year AS previous_year
 	, b.avg_payroll AS previous_payroll_value
 	, CASE
-		WHEN a.avg_payroll > b.avg_payroll THEN 'mzdy rostou'
-		WHEN a.avg_payroll = b.avg_payroll THEN 'mzdy stagnují'
-		WHEN a.avg_payroll < b.avg_payroll THEN 'mzdy klesají'
+			WHEN a.avg_payroll > b.avg_payroll THEN 'mzdy rostou'
+			WHEN a.avg_payroll = b.avg_payroll THEN 'mzdy stagnují'
+			WHEN a.avg_payroll < b.avg_payroll THEN 'mzdy klesají'
 	END AS payroll_trend
 FROM ek_temporary_payroll_comparison AS a
 JOIN ek_temporary_payroll_comparison AS b
